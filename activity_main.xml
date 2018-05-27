@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="183dp"
+        android:layout_height="60dp"
+        android:text="Entertainment" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="183dp"
+        android:layout_height="60dp"
+        android:text="Sports" />
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="183dp"
+        android:layout_height="60dp"
+        android:text="News" />
+
+    <CheckBox
+        android:id="@+id/cb4"
+        android:layout_width="183dp"
+        android:layout_height="60dp"
+        android:text="Kids" />
+
+    <CheckBox
+        android:id="@+id/cb5"
+        android:layout_width="183dp"
+        android:layout_height="60dp"
+        android:text="Regional" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Subscribe" />
+
+</LinearLayout>
